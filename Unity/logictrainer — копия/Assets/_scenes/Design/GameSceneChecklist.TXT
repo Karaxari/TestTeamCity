@@ -1,0 +1,13 @@
+Score +
+Timer +
+EndGamePanel +
+PausePanel +
+ExitPanel +
+LoadingPanel?
+CorrectAnswerIndication +
+WrongAnswerIndication +
+
+CongratulationsEffect?
+
+InnerGamePanels (for formula, labyrinth, etc.)
+

@@ -1,0 +1,7 @@
+Menu (game select) +
+Menu all +
+Leaderboard +
+Settings +
+Level select +
+
+Updating background when hover on game
