@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87ddc475dc882b43acca1986b54066c, type: 3}
+  m_Name: Stage2
+  m_EditorClassIdentifier: 
+  transitions:
+  - rid: 2038970909060759559
+  - rid: 2038970909060759560
+  - rid: 2038970909060759561
+  - rid: 2038970909060759562
+  - rid: 2038970909060759563
+  - rid: 2038970909060759564
+  - rid: 2038970909060759565
+  - rid: 2038970909060759566
+  - rid: 2038970909060759567
+  - rid: 2038970909060759568
+  - rid: 2038970909060759569
+  - rid: 2038970909060759570
+  - rid: 2038970909060759571
+  - rid: 2038970909060759572
+  - rid: 2038970909060759573
+  - rid: 2038970909060759574
+  - rid: 2038970909060759575
+  - rid: 2038970909060759576
+  - rid: 2038970950292602880
+  startElement: {fileID: 11400000, guid: e2576b8981304844681c1a2559a0a902, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2038970909060759559
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 0}
+        toElement: {fileID: 0}
+    - rid: 2038970909060759560
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: e2576b8981304844681c1a2559a0a902, type: 2}
+        toElement: {fileID: 11400000, guid: ab69cee9955726748895d39081a8028c, type: 2}
+    - rid: 2038970909060759561
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: e2576b8981304844681c1a2559a0a902, type: 2}
+        toElement: {fileID: 11400000, guid: 1119270067ac4454b9b0a6d45706bdbc, type: 2}
+    - rid: 2038970909060759562
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: ab69cee9955726748895d39081a8028c, type: 2}
+        toElement: {fileID: 11400000, guid: 73a72740808c8d7418a83aa7ca96798d, type: 2}
+    - rid: 2038970909060759563
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 1119270067ac4454b9b0a6d45706bdbc, type: 2}
+        toElement: {fileID: 11400000, guid: 73a72740808c8d7418a83aa7ca96798d, type: 2}
+    - rid: 2038970909060759564
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 73a72740808c8d7418a83aa7ca96798d, type: 2}
+        toElement: {fileID: 11400000, guid: 4ce20259c3f435a4f86d14bd49bdd413, type: 2}
+    - rid: 2038970909060759565
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 73a72740808c8d7418a83aa7ca96798d, type: 2}
+        toElement: {fileID: 11400000, guid: d5556fc2dff53e7489a0073d98cc399d, type: 2}
+    - rid: 2038970909060759566
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: d5556fc2dff53e7489a0073d98cc399d, type: 2}
+        toElement: {fileID: 11400000, guid: 88097b3f8d0506f4796667ac19483555, type: 2}
+    - rid: 2038970909060759567
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 4ce20259c3f435a4f86d14bd49bdd413, type: 2}
+        toElement: {fileID: 11400000, guid: 88097b3f8d0506f4796667ac19483555, type: 2}
+    - rid: 2038970909060759568
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 88097b3f8d0506f4796667ac19483555, type: 2}
+        toElement: {fileID: 11400000, guid: 2f226ad7cf1083b46a7f316068808667, type: 2}
+    - rid: 2038970909060759569
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 88097b3f8d0506f4796667ac19483555, type: 2}
+        toElement: {fileID: 11400000, guid: a08276cab7cf9e14787fdd2feb15d7ee, type: 2}
+    - rid: 2038970909060759570
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: a08276cab7cf9e14787fdd2feb15d7ee, type: 2}
+        toElement: {fileID: 11400000, guid: c257b8b9fef87c84a98355dfd33e4e27, type: 2}
+    - rid: 2038970909060759571
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 2f226ad7cf1083b46a7f316068808667, type: 2}
+        toElement: {fileID: 11400000, guid: c257b8b9fef87c84a98355dfd33e4e27, type: 2}
+    - rid: 2038970909060759572
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: c257b8b9fef87c84a98355dfd33e4e27, type: 2}
+        toElement: {fileID: 11400000, guid: a3fb225c60e79504682e2a1bfcde7a3e, type: 2}
+    - rid: 2038970909060759573
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: a3fb225c60e79504682e2a1bfcde7a3e, type: 2}
+        toElement: {fileID: 11400000, guid: 3c269300bd0a7d240a311dc45c2cb366, type: 2}
+    - rid: 2038970909060759574
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 3c269300bd0a7d240a311dc45c2cb366, type: 2}
+        toElement: {fileID: 11400000, guid: 8fadcbdd3172091478f26c55b0d3a768, type: 2}
+    - rid: 2038970909060759575
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 3c269300bd0a7d240a311dc45c2cb366, type: 2}
+        toElement: {fileID: 11400000, guid: 7933dddab8418d247b9aeb446a7dffda, type: 2}
+    - rid: 2038970909060759576
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 7933dddab8418d247b9aeb446a7dffda, type: 2}
+        toElement: {fileID: 11400000, guid: c3439321aa3a2154ba230eda16d94c26, type: 2}
+    - rid: 2038970950292602880
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 8fadcbdd3172091478f26c55b0d3a768, type: 2}
+        toElement: {fileID: 11400000, guid: c148b13139542a1448e467c946252000, type: 2}

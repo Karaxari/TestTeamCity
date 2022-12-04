@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27d4e9df88fbddd43bfc309ec6047ad9, type: 3}
+  m_Name: StartProjectData
+  m_EditorClassIdentifier: 
+  Directories:
+  - FolderName: Animations
+  - FolderName: Audio
+  - FolderName: Fonts
+  - FolderName: Materials
+  - FolderName: Prefabs
+  - FolderName: Resources
+  - FolderName: Sprites
+  - FolderName: Models
+  - FolderName: Textures
+  HierarchyObjects:
+  - ObjectName: ====MAP====
+    ColorCollapsed: 1
+    ColorData:
+      HeaderColor: {r: 0.99018174, g: 1, b: 0.44025153, a: 1}
+      TextColor: {r: 0, g: 0, b: 0, a: 1}
+      ChildColor: {r: 0.6247781, g: 0.6320754, b: 0.28423512, a: 1}
+      ChildTextColor: {r: 0, g: 0, b: 0, a: 1}
+      HeaderIcon: Cubemap Icon
+  - ObjectName: ====CANVASES====
+    ColorCollapsed: 1
+    ColorData:
+      HeaderColor: {r: 0.56289303, g: 1, b: 0.57246244, a: 1}
+      TextColor: {r: 0, g: 0, b: 0, a: 1}
+      ChildColor: {r: 0.34517026, g: 0.6132076, b: 0.3499998, a: 1}
+      ChildTextColor: {r: 0, g: 0, b: 0, a: 1}
+      HeaderIcon: d_Canvas Icon
+  - ObjectName: ====CONTROLLERS====
+    ColorCollapsed: 1
+    ColorData:
+      HeaderColor: {r: 1, g: 0.54402506, b: 0.54402506, a: 1}
+      TextColor: {r: 0, g: 0, b: 0, a: 1}
+      ChildColor: {r: 0.6226415, g: 0.33285862, b: 0.33285862, a: 1}
+      ChildTextColor: {r: 0, g: 0, b: 0, a: 1}
+      HeaderIcon: UnityEditor.GameView@2x

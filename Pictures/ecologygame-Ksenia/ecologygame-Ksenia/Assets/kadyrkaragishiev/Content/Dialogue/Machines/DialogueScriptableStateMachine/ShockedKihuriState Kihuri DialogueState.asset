@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae9eae08a13d42bcb2e9f1cc57ecea5, type: 3}
+  m_Name: ShockedKihuriState Kihuri DialogueState
+  m_EditorClassIdentifier: 
+  Id: bfd9d612168a34b4793948e3d6a9e265
+  DialogueText: Shocked
+  Character: {fileID: 11400000, guid: 0a87869fcebdc43cbbcce2fa804d1a41, type: 2}
+  characterState: 2
+  ChangeEcologic: 0
+  ChangeWellFare: 0
+  isDialogue: 1
+  FirstChooseState: {fileID: 11400000, guid: fa11e6e7cfd1842e0a0d978ef6300234, type: 2}
+  SecondChooseState: {fileID: 11400000, guid: a5886310af30d4f0baa49c767ef39da6, type: 2}

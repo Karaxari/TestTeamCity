@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3950b01197ed4ffe9356bafd4250315, type: 3}
+  m_Name: SeaInDagnerStateMaschine
+  m_EditorClassIdentifier: 
+  _transitions:
+  - _from: {fileID: 11400000, guid: 43aeaa03d20a5ba48bbd32e96b21cf11, type: 2}
+    _to: {fileID: 11400000, guid: e9bf3386f51437049806abbc42576545, type: 2}
+  DefaultState: {fileID: 0}
+  Id: df1e82d0886163741a94dba5f010a36f

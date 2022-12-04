@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae9eae08a13d42bcb2e9f1cc57ecea5, type: 3}
+  m_Name: AngryKihuri DialogueState 1
+  m_EditorClassIdentifier: 
+  Id: e22d1af865d3843918a8569ba9ebd027
+  DialogueText: Angry
+  Character: {fileID: 11400000, guid: 0a87869fcebdc43cbbcce2fa804d1a41, type: 2}
+  characterState: 1

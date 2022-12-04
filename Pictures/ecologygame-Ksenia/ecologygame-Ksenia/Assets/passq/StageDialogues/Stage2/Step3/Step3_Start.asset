@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3437b0bf3be34ee459b60f13894b7634, type: 3}
+  m_Name: Step3_Start
+  m_EditorClassIdentifier: 
+  type: 1
+  text: "\u041E\u0441\u0442\u0430\u043D\u043E\u0432\u0438 \u0441\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u043E
+    \u0413\u042D\u0421"
+  character: {fileID: 11400000, guid: d0ef0916f7b6f194680ce27d9840036b, type: 2}
+  choices:
+  - text: "\u041E\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C"
+    selectedElement: {fileID: 11400000, guid: a08276cab7cf9e14787fdd2feb15d7ee, type: 2}
+    textColor:
+      serializedVersion: 2
+      rgba: 4278207245
+  - text: "\u041F\u0440\u043E\u0438\u0433\u043D\u043E\u0440\u0438\u0440\u043E\u0432\u0430\u0442\u044C"
+    selectedElement: {fileID: 11400000, guid: 2f226ad7cf1083b46a7f316068808667, type: 2}
+    textColor:
+      serializedVersion: 2
+      rgba: 4278190155
+  enterPreprocessors: []
+  executePreprocessors: []
+  exitPreprocessors: []
+  references:
+    version: 2
+    RefIds: []

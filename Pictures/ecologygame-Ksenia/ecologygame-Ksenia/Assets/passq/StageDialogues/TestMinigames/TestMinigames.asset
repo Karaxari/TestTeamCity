@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87ddc475dc882b43acca1986b54066c, type: 3}
+  m_Name: TestMinigames
+  m_EditorClassIdentifier: 
+  transitions:
+  - rid: 2038970909060759552
+  startElement: {fileID: 11400000, guid: 3caf76ea6624a654ebb2bdbceaa5c6bf, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2038970909060759552
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 3caf76ea6624a654ebb2bdbceaa5c6bf, type: 2}
+        toElement: {fileID: 11400000, guid: 9f51683cc6774fa45af044a412865316, type: 2}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3437b0bf3be34ee459b60f13894b7634, type: 3}
+  m_Name: Step3_Test_Accept1
+  m_EditorClassIdentifier: 
+  type: 2
+  text: 
+  character: {fileID: 11400000, guid: 1c71397f404d11a4d9b82dd03479023e, type: 2}
+  choices: []
+  enterPreprocessors:
+  - rid: 2038970775101505539
+  executePreprocessors: []
+  exitPreprocessors:
+  - rid: 2038970775101505536
+  - rid: 2038970775101505537
+  - rid: 2038970775101505538
+  references:
+    version: 2
+    RefIds:
+    - rid: 2038970775101505536
+      type: {class: ItemEnabledPreprocessor, ns: , asm: Assembly-CSharp}
+      data:
+        targetItemID: trash_additional
+        enableItem: 1
+    - rid: 2038970775101505537
+      type: {class: ItemEnabledPreprocessor, ns: , asm: Assembly-CSharp}
+      data:
+        targetItemID: green_dark
+        enableItem: 1
+    - rid: 2038970775101505538
+      type: {class: ItemEnabledPreprocessor, ns: , asm: Assembly-CSharp}
+      data:
+        targetItemID: green_normal
+        enableItem: 0
+    - rid: 2038970775101505539
+      type: {class: ItemEnabledPreprocessor, ns: , asm: Assembly-CSharp}
+      data:
+        targetItemID: fabricgame_resources
+        enableItem: 1

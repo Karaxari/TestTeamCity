@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3950b01197ed4ffe9356bafd4250315, type: 3}
+  m_Name: DialogueScriptableStateMachine
+  m_EditorClassIdentifier: 
+  _transitions:
+  - _from: {fileID: 11400000, guid: c81a6426e683544f7ab8251c3fe62bc0, type: 2}
+    _to: {fileID: 11400000, guid: 3622c771bef2d4dd69914f6b52487461, type: 2}
+  - _from: {fileID: 11400000, guid: 3622c771bef2d4dd69914f6b52487461, type: 2}
+    _to: {fileID: 11400000, guid: e22d1af865d3843918a8569ba9ebd027, type: 2}
+  - _from: {fileID: 11400000, guid: e22d1af865d3843918a8569ba9ebd027, type: 2}
+    _to: {fileID: 11400000, guid: 631fbe9b823b1bb4a807b5b0d9073070, type: 2}
+  - _from: {fileID: 11400000, guid: 631fbe9b823b1bb4a807b5b0d9073070, type: 2}
+    _to: {fileID: 11400000, guid: 1e0c5aef97982cf4da8710ab4c7038a8, type: 2}
+  DefaultState: {fileID: 11400000, guid: c81a6426e683544f7ab8251c3fe62bc0, type: 2}
+  Id: 1719d1ab08dae4302a4c527e4b5adb3a
