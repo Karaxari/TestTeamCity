@@ -13,6 +13,7 @@ public class SortingDeclainAnim : MinigameBase
     protected override void OnGameStarted()
     {
         base.OnGameStarted();
+        factory.SetActive(true);
         StartCoroutine(FactoryExhausting());
     }
 
@@ -38,6 +39,7 @@ public class SortingDeclainAnim : MinigameBase
 
         factory.GetComponentInChildren<ParticleSystem>().Stop();
         dustClouds.SetActive(true);
+        factory.SetActive(false);
         EndGame();
 
     }

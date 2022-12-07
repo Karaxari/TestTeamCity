@@ -1,0 +1,348 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87ddc475dc882b43acca1986b54066c, type: 3}
+  m_Name: StageController
+  m_EditorClassIdentifier: 
+  transitions:
+  - rid: 2038970775101505544
+  - rid: 2038970775101505545
+  - rid: 2038970775101505546
+  - rid: 2038970775101505547
+  - rid: 2038970775101505548
+  - rid: 2038970775101505549
+  - rid: 2038970775101505550
+  - rid: 2038970775101505551
+  - rid: 2038970775101505552
+  - rid: 2038970775101505553
+  - rid: 2038970775101505554
+  - rid: 2038970775101505555
+  - rid: 2038970775101505556
+  - rid: 2038970775101505557
+  - rid: 2038970775101505558
+  - rid: 2038970775101505559
+  - rid: 2038970775101505560
+  - rid: 2038970775101505564
+  - rid: 3570205691412480001
+  - rid: 3570205691412480002
+  - rid: 3570205691412480003
+  - rid: 3570205691412480004
+  - rid: 3570205691412480005
+  - rid: 3570205691412480006
+  - rid: 3570205691412480007
+  - rid: 3570205691412480008
+  - rid: 3570205691412480009
+  - rid: 3570205691412480010
+  - rid: 3570205691412480011
+  - rid: 3570205691412480012
+  - rid: 3570205691412480013
+  - rid: 3570205691412480014
+  - rid: 3570205691412480015
+  - rid: 3570205691412480016
+  - rid: 3570205691412480017
+  - rid: 3570205691412480018
+  - rid: 3570205691412480019
+  - rid: 3570205691412480020
+  - rid: 3570205691412480021
+  - rid: 3570205691412480022
+  - rid: 3570205691412480023
+  - rid: 3570205691412480024
+  - rid: 3570205691412480025
+  - rid: 3570205691412480026
+  - rid: 3570205691412480027
+  - rid: 3570205691412480028
+  - rid: 3570205691412480029
+  - rid: 3570205691412480030
+  - rid: 3570205691412480031
+  - rid: 3570205691412480032
+  - rid: 3570205691412480033
+  - rid: 3570205691412480034
+  - rid: 3570205691412480035
+  - rid: 2038970775101505562
+  startElement: {fileID: 11400000, guid: ab73d917cb1ef0449bebd05836ec4c2c, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2038970775101505544
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: ab73d917cb1ef0449bebd05836ec4c2c, type: 2}
+        toElement: {fileID: 11400000, guid: 5ae1ee66a96446c42b4a1af70033c736, type: 2}
+    - rid: 2038970775101505545
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: ab73d917cb1ef0449bebd05836ec4c2c, type: 2}
+        toElement: {fileID: 11400000, guid: 953e4c6aeaeb63940a1f7dd634d311f3, type: 2}
+    - rid: 2038970775101505546
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 5ae1ee66a96446c42b4a1af70033c736, type: 2}
+        toElement: {fileID: 11400000, guid: 60c72985bc898974a9f3bcea3161ed9c, type: 2}
+    - rid: 2038970775101505547
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 60c72985bc898974a9f3bcea3161ed9c, type: 2}
+        toElement: {fileID: 11400000, guid: 968cf11b88555d84bb2e77b3d009fadb, type: 2}
+    - rid: 2038970775101505548
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 953e4c6aeaeb63940a1f7dd634d311f3, type: 2}
+        toElement: {fileID: 11400000, guid: 968cf11b88555d84bb2e77b3d009fadb, type: 2}
+    - rid: 2038970775101505549
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 968cf11b88555d84bb2e77b3d009fadb, type: 2}
+        toElement: {fileID: 11400000, guid: f8f92bf39f5b17849976b284cf592010, type: 2}
+    - rid: 2038970775101505550
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 968cf11b88555d84bb2e77b3d009fadb, type: 2}
+        toElement: {fileID: 11400000, guid: 91486f02015e93e4abbaccd52e594dd6, type: 2}
+    - rid: 2038970775101505551
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 91486f02015e93e4abbaccd52e594dd6, type: 2}
+        toElement: {fileID: 11400000, guid: e05dea1b0c90c94419069954c55753ff, type: 2}
+    - rid: 2038970775101505552
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: e05dea1b0c90c94419069954c55753ff, type: 2}
+        toElement: {fileID: 11400000, guid: 50dc1dc2fb5bfc1439eec6134e5f80e8, type: 2}
+    - rid: 2038970775101505553
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: f8f92bf39f5b17849976b284cf592010, type: 2}
+        toElement: {fileID: 11400000, guid: 50dc1dc2fb5bfc1439eec6134e5f80e8, type: 2}
+    - rid: 2038970775101505554
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 50dc1dc2fb5bfc1439eec6134e5f80e8, type: 2}
+        toElement: {fileID: 11400000, guid: 2f2f5a533e3fcc74f844d770172eb41b, type: 2}
+    - rid: 2038970775101505555
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 50dc1dc2fb5bfc1439eec6134e5f80e8, type: 2}
+        toElement: {fileID: 11400000, guid: 86448c3e0b2a65448a8ce1083fcfac2d, type: 2}
+    - rid: 2038970775101505556
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 2f2f5a533e3fcc74f844d770172eb41b, type: 2}
+        toElement: {fileID: 11400000, guid: 7d1a2f60c5048cf4fb93923997460f02, type: 2}
+    - rid: 2038970775101505557
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 7d1a2f60c5048cf4fb93923997460f02, type: 2}
+        toElement: {fileID: 11400000, guid: 6174bac5c02f01a4f870e5b28bc0fb59, type: 2}
+    - rid: 2038970775101505558
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 86448c3e0b2a65448a8ce1083fcfac2d, type: 2}
+        toElement: {fileID: 11400000, guid: 6174bac5c02f01a4f870e5b28bc0fb59, type: 2}
+    - rid: 2038970775101505559
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 6174bac5c02f01a4f870e5b28bc0fb59, type: 2}
+        toElement: {fileID: 11400000, guid: 634027e2908e7eb47bff585181d9bea9, type: 2}
+    - rid: 2038970775101505560
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 6174bac5c02f01a4f870e5b28bc0fb59, type: 2}
+        toElement: {fileID: 11400000, guid: 76d8221a7843c84438f3ba4a7c5da109, type: 2}
+    - rid: 2038970775101505562
+      type: {class: DialogueParameterTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 500ce866c91c1dd4e8320a810d1e977e, type: 2}
+        toElement: {fileID: 11400000, guid: 0a7945dfc06c65d48b830a3e8bed95c7, type: 2}
+        anotherToElement: {fileID: 11400000, guid: a58a09d9b4b39d948a11f6f6e6fbd9cd, type: 2}
+        parameterName: Ecology
+        conditions:
+        - conditionType: 3
+          targetValue: 0
+    - rid: 2038970775101505564
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 634027e2908e7eb47bff585181d9bea9, type: 2}
+        toElement: {fileID: 11400000, guid: bc2b1fdc1c2fb394c9c5ee7d51e75810, type: 2}
+    - rid: 3570205691412480001
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: bc2b1fdc1c2fb394c9c5ee7d51e75810, type: 2}
+        toElement: {fileID: 11400000, guid: c8bce35c31d88a94094841267fd4e288, type: 2}
+    - rid: 3570205691412480002
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 76d8221a7843c84438f3ba4a7c5da109, type: 2}
+        toElement: {fileID: 11400000, guid: c8bce35c31d88a94094841267fd4e288, type: 2}
+    - rid: 3570205691412480003
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: c8bce35c31d88a94094841267fd4e288, type: 2}
+        toElement: {fileID: 11400000, guid: 0171e1bdf4acff2488ba97da1da1ea18, type: 2}
+    - rid: 3570205691412480004
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: c8bce35c31d88a94094841267fd4e288, type: 2}
+        toElement: {fileID: 11400000, guid: f3214807f065ea346abed9c50336df1a, type: 2}
+    - rid: 3570205691412480005
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 0171e1bdf4acff2488ba97da1da1ea18, type: 2}
+        toElement: {fileID: 11400000, guid: f75d99297d199ee4d8b355fbc5e4b699, type: 2}
+    - rid: 3570205691412480006
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: f75d99297d199ee4d8b355fbc5e4b699, type: 2}
+        toElement: {fileID: 11400000, guid: 1d4eabffd42495742b33c8f58e52a4bf, type: 2}
+    - rid: 3570205691412480007
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: f3214807f065ea346abed9c50336df1a, type: 2}
+        toElement: {fileID: 11400000, guid: 1d4eabffd42495742b33c8f58e52a4bf, type: 2}
+    - rid: 3570205691412480008
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 1d4eabffd42495742b33c8f58e52a4bf, type: 2}
+        toElement: {fileID: 11400000, guid: 4216bbbefbf5ebf4dabf3a7be8de1566, type: 2}
+    - rid: 3570205691412480009
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 1d4eabffd42495742b33c8f58e52a4bf, type: 2}
+        toElement: {fileID: 11400000, guid: 6f3e2fa4590e5ac4998989761643ca82, type: 2}
+    - rid: 3570205691412480010
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 4216bbbefbf5ebf4dabf3a7be8de1566, type: 2}
+        toElement: {fileID: 11400000, guid: 744e8aa56e89df14883db16a3f2bb7ba, type: 2}
+    - rid: 3570205691412480011
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 744e8aa56e89df14883db16a3f2bb7ba, type: 2}
+        toElement: {fileID: 11400000, guid: 1ae88ca40a9dbe8468e532c76f2420b4, type: 2}
+    - rid: 3570205691412480012
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 6f3e2fa4590e5ac4998989761643ca82, type: 2}
+        toElement: {fileID: 11400000, guid: 1ae88ca40a9dbe8468e532c76f2420b4, type: 2}
+    - rid: 3570205691412480013
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 1ae88ca40a9dbe8468e532c76f2420b4, type: 2}
+        toElement: {fileID: 11400000, guid: 1d5feee8c209b1b4bb2222160b8648eb, type: 2}
+    - rid: 3570205691412480014
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 1ae88ca40a9dbe8468e532c76f2420b4, type: 2}
+        toElement: {fileID: 11400000, guid: 16f8c4adc55fd774aa7c6ed191c25f0b, type: 2}
+    - rid: 3570205691412480015
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 1d5feee8c209b1b4bb2222160b8648eb, type: 2}
+        toElement: {fileID: 11400000, guid: 48a157783418f604796cc4def2c40a86, type: 2}
+    - rid: 3570205691412480016
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 48a157783418f604796cc4def2c40a86, type: 2}
+        toElement: {fileID: 11400000, guid: 93b1aa35f520fe747a39e32b30da8499, type: 2}
+    - rid: 3570205691412480017
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 16f8c4adc55fd774aa7c6ed191c25f0b, type: 2}
+        toElement: {fileID: 11400000, guid: 93b1aa35f520fe747a39e32b30da8499, type: 2}
+    - rid: 3570205691412480018
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 93b1aa35f520fe747a39e32b30da8499, type: 2}
+        toElement: {fileID: 11400000, guid: fbe9930058557db439d331bac4cb25f5, type: 2}
+    - rid: 3570205691412480019
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 93b1aa35f520fe747a39e32b30da8499, type: 2}
+        toElement: {fileID: 11400000, guid: c63e9fc31b9e67d4db5e33f1a6d523f7, type: 2}
+    - rid: 3570205691412480020
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: fbe9930058557db439d331bac4cb25f5, type: 2}
+        toElement: {fileID: 11400000, guid: e5e9a4ac479cbf542afab37462b09ea2, type: 2}
+    - rid: 3570205691412480021
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: e5e9a4ac479cbf542afab37462b09ea2, type: 2}
+        toElement: {fileID: 11400000, guid: 1202f50c70ac8ff48af4e81e6c1dd8eb, type: 2}
+    - rid: 3570205691412480022
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: c63e9fc31b9e67d4db5e33f1a6d523f7, type: 2}
+        toElement: {fileID: 11400000, guid: 1202f50c70ac8ff48af4e81e6c1dd8eb, type: 2}
+    - rid: 3570205691412480023
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 1202f50c70ac8ff48af4e81e6c1dd8eb, type: 2}
+        toElement: {fileID: 11400000, guid: 774dda06da74530458cc6a4413456f0d, type: 2}
+    - rid: 3570205691412480024
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 1202f50c70ac8ff48af4e81e6c1dd8eb, type: 2}
+        toElement: {fileID: 11400000, guid: 3b841aa6e303a3447baa08e32035b64c, type: 2}
+    - rid: 3570205691412480025
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 774dda06da74530458cc6a4413456f0d, type: 2}
+        toElement: {fileID: 11400000, guid: b50fbea07df01d54fa4f7c3eccbee63c, type: 2}
+    - rid: 3570205691412480026
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: b50fbea07df01d54fa4f7c3eccbee63c, type: 2}
+        toElement: {fileID: 11400000, guid: abb14a2281c10fd45b5a358e2f0c26e9, type: 2}
+    - rid: 3570205691412480027
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 3b841aa6e303a3447baa08e32035b64c, type: 2}
+        toElement: {fileID: 11400000, guid: abb14a2281c10fd45b5a358e2f0c26e9, type: 2}
+    - rid: 3570205691412480028
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: abb14a2281c10fd45b5a358e2f0c26e9, type: 2}
+        toElement: {fileID: 11400000, guid: 24fff863e1c7c444bb5b099817523658, type: 2}
+    - rid: 3570205691412480029
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: abb14a2281c10fd45b5a358e2f0c26e9, type: 2}
+        toElement: {fileID: 11400000, guid: bc8b0339c87985849b21eae7d23bf573, type: 2}
+    - rid: 3570205691412480030
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 24fff863e1c7c444bb5b099817523658, type: 2}
+        toElement: {fileID: 11400000, guid: 92c09a61379c0e9408f3e0c1eb496e9f, type: 2}
+    - rid: 3570205691412480031
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 92c09a61379c0e9408f3e0c1eb496e9f, type: 2}
+        toElement: {fileID: 11400000, guid: 0a50e6c5b261f2b468aabdfb16f668e7, type: 2}
+    - rid: 3570205691412480032
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: bc8b0339c87985849b21eae7d23bf573, type: 2}
+        toElement: {fileID: 11400000, guid: 0a50e6c5b261f2b468aabdfb16f668e7, type: 2}
+    - rid: 3570205691412480033
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 0a50e6c5b261f2b468aabdfb16f668e7, type: 2}
+        toElement: {fileID: 11400000, guid: 1d629b89c149eb34ba7f9456d082043f, type: 2}
+    - rid: 3570205691412480034
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 0a50e6c5b261f2b468aabdfb16f668e7, type: 2}
+        toElement: {fileID: 11400000, guid: 8f1ce3ec91c90bf4580b8947f02d5855, type: 2}
+    - rid: 3570205691412480035
+      type: {class: DialogueTransition, ns: , asm: Assembly-CSharp}
+      data:
+        fromElement: {fileID: 11400000, guid: 1d629b89c149eb34ba7f9456d082043f, type: 2}
+        toElement: {fileID: 11400000, guid: 82ce91ba0d0cc66438639fcdd28327f6, type: 2}

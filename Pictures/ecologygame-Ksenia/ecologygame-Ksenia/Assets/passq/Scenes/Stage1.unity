@@ -1681,6 +1681,57 @@ Transform:
   m_Father: {fileID: 101494054}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &74342200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 74342201}
+  - component: {fileID: 74342202}
+  m_Layer: 0
+  m_Name: 5_FieldsMinigame (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &74342201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74342200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1084472514}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &74342202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74342200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00501f4005554c84895fa65fcb514ca4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredElement: {fileID: 11400000, guid: 0171e1bdf4acff2488ba97da1da1ea18, type: 2}
+  minigameObj: {fileID: 699404654}
+  fieldsCountPanel: {fileID: 1310308969}
+  fieldsCountText: {fileID: 2102543618}
+  fieldsCount: 5
+  fieldPrefab: {fileID: 4595390997589730383, guid: 34ddad1ed3bb65e49965d8d9965b3ea3, type: 3}
+  fieldContainer: {fileID: 1771099225}
 --- !u!1 &75009632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1979,6 +2030,169 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83071195}
   m_CullTransparentMesh: 1
+--- !u!1 &84066755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 84066756}
+  - component: {fileID: 84066760}
+  - component: {fileID: 84066759}
+  - component: {fileID: 84066758}
+  - component: {fileID: 84066757}
+  m_Layer: 0
+  m_Name: tapableTree (0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &84066756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84066755}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.69, y: -0.12, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1061650019}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &84066757
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84066755}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.33, y: 0.3}
+  m_EdgeRadius: 0
+--- !u!114 &84066758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84066755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d20f6f0ea21b084ca0b6c0964e18006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromValue: {x: 0, y: 0, z: 0}
+  toValue: {x: 0, y: 0, z: 0}
+  effectTime: 0.35
+  effectType: 14
+  startFromDefault: 1
+  moveToFromAfter: 0
+--- !u!114 &84066759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84066755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864ee76af5bb8a14f918e2d687980442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infinityTapable: 0
+  tapsToComplete: 1
+  onTapped:
+    m_PersistentCalls:
+      m_Calls: []
+  onCompleteTapping:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 84066758}
+        m_TargetAssemblyTypeName: ScaleEffect, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!212 &84066760
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84066755}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 11
+  m_Sprite: {fileID: 21300000, guid: 42abb37911bf3884ea02a61599bd8a69, type: 3}
+  m_Color: {r: 0.50377357, g: 0.5213653, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.64, y: 0.64}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &86773625
 GameObject:
   m_ObjectHideFlags: 0
@@ -8050,7 +8264,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1061650019}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &138497874
 SpriteRenderer:
@@ -14623,12 +14837,12 @@ GameObject:
   - component: {fileID: 273635856}
   - component: {fileID: 273635857}
   m_Layer: 0
-  m_Name: AirportMinigameDeclain
+  m_Name: 10_AirportMinigameDeclain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &273635856
 Transform:
   m_ObjectHideFlags: 0
@@ -14642,7 +14856,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &273635857
 MonoBehaviour:
@@ -14656,7 +14870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c569285284f9d0842884c4ec8fbb8ebb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: d88871dab319db24a9f2dc48642ac103, type: 2}
+  requiredElement: {fileID: 11400000, guid: bc8b0339c87985849b21eae7d23bf573, type: 2}
   minigameObj: {fileID: 1036787377}
   plan: {fileID: 382492845}
   erasingController: {fileID: 1036787379}
@@ -15772,7 +15986,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.95
+  m_fontSize: 27.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -16167,7 +16381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8077d46d8461b04e9e305804c53d24c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentDialogue: {fileID: 11400000, guid: 74fd95e1cd4f9dd489299d6faf5a4688, type: 2}
+  currentDialogue: {fileID: 11400000, guid: 594a9ee0452f0c840a74273d8585ced8, type: 2}
 --- !u!1 &342191163
 GameObject:
   m_ObjectHideFlags: 0
@@ -17813,7 +18027,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.4
+  m_fontSize: 17.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18524,12 +18738,12 @@ GameObject:
   - component: {fileID: 402063669}
   - component: {fileID: 402063670}
   m_Layer: 0
-  m_Name: FieldsMinigame
+  m_Name: 2_FieldsMinigame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &402063669
 Transform:
   m_ObjectHideFlags: 0
@@ -18543,7 +18757,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &402063670
 MonoBehaviour:
@@ -18557,11 +18771,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00501f4005554c84895fa65fcb514ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: 1a059815b7779ac4387d839805bd3c42, type: 2}
+  requiredElement: {fileID: 11400000, guid: 91486f02015e93e4abbaccd52e594dd6, type: 2}
   minigameObj: {fileID: 699404654}
   fieldsCountPanel: {fileID: 1310308969}
   fieldsCountText: {fileID: 2102543618}
-  fieldsCount: 15
+  fieldsCount: 5
   fieldPrefab: {fileID: 4595390997589730383, guid: 34ddad1ed3bb65e49965d8d9965b3ea3, type: 3}
   fieldContainer: {fileID: 1771099225}
 --- !u!1 &402492344
@@ -23153,7 +23367,7 @@ GameObject:
   - component: {fileID: 547505429}
   - component: {fileID: 547505430}
   m_Layer: 0
-  m_Name: ExpansionOfSilkProductionMinigame_Decline
+  m_Name: 3_ExpansionOfSilkProductionMinigame_Decline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23172,7 +23386,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 13
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &547505430
 MonoBehaviour:
@@ -23186,7 +23400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a742be38a14c3404983e836c9a1471eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: 3d454a2f05a7a874f927d6e9d0fda75b, type: 2}
+  requiredElement: {fileID: 11400000, guid: 86448c3e0b2a65448a8ce1083fcfac2d, type: 2}
   materialsPrefab: {fileID: 2750430136289833478, guid: 6524a3638b5f891478848f7ca3764cca, type: 3}
   workShopPrefab: {fileID: 2633020979270842603, guid: 62100b8e7a9f52144a34fbbdd6914719, type: 3}
   Accept: 0
@@ -24028,7 +24242,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1061650019}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &578613973
 SpriteRenderer:
@@ -27076,7 +27290,7 @@ GameObject:
   - component: {fileID: 699076822}
   - component: {fileID: 699076823}
   m_Layer: 0
-  m_Name: ExpansionOfSilkProductionMinigame_Accept
+  m_Name: 3_ExpansionOfSilkProductionMinigame_Accept
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27095,7 +27309,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 12
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &699076823
 MonoBehaviour:
@@ -27109,7 +27323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a742be38a14c3404983e836c9a1471eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: 0d662b9742e0a6846835f9c740207447, type: 2}
+  requiredElement: {fileID: 11400000, guid: 2f2f5a533e3fcc74f844d770172eb41b, type: 2}
   materialsPrefab: {fileID: 2750430136289833478, guid: 6524a3638b5f891478848f7ca3764cca, type: 3}
   workShopPrefab: {fileID: 2633020979270842603, guid: 62100b8e7a9f52144a34fbbdd6914719, type: 3}
   Accept: 1
@@ -27455,7 +27669,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.6
+  m_fontSize: 36.7
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -28020,12 +28234,12 @@ GameObject:
   - component: {fileID: 723266441}
   - component: {fileID: 723266442}
   m_Layer: 0
-  m_Name: CleanParkAccept
+  m_Name: 8_CleanParkAccept
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &723266440
 Transform:
   m_ObjectHideFlags: 0
@@ -28039,7 +28253,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 6
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &723266441
 MonoBehaviour:
@@ -28053,7 +28267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5cf1f5066e7a54099738cdf053907e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: ce4af54f063afc24397fc29011b6c17e, type: 2}
+  requiredElement: {fileID: 11400000, guid: fbe9930058557db439d331bac4cb25f5, type: 2}
   minigameObj: {fileID: 1709704563}
   bench: {fileID: 2071214921}
   erasingController: {fileID: 1709704565}
@@ -33625,7 +33839,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &951844995
 Transform:
   m_ObjectHideFlags: 0
@@ -33639,7 +33853,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 2
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &951844996
 MonoBehaviour:
@@ -40481,7 +40695,7 @@ GameObject:
   - component: {fileID: 1007657229}
   - component: {fileID: 1007657230}
   m_Layer: 0
-  m_Name: BusMinigameAccept
+  m_Name: 11_BusMinigameAccept
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40500,7 +40714,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1007657230
 MonoBehaviour:
@@ -40514,7 +40728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aae558b7500c7c4e808ed8f42d80ff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: ce4af54f063afc24397fc29011b6c17e, type: 2}
+  requiredElement: {fileID: 11400000, guid: 1d629b89c149eb34ba7f9456d082043f, type: 2}
   pointsTapables:
   - {fileID: 999118395}
   - {fileID: 652676519}
@@ -41645,6 +41859,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 84066756}
   - {fileID: 138497873}
   - {fileID: 1255300502}
   - {fileID: 578613972}
@@ -41932,20 +42147,21 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 402063669}
   - {fileID: 1705671121}
-  - {fileID: 951844995}
-  - {fileID: 1505480529}
+  - {fileID: 402063669}
+  - {fileID: 699076822}
+  - {fileID: 547505429}
   - {fileID: 1243646485}
   - {fileID: 1316005714}
-  - {fileID: 723266440}
-  - {fileID: 1576472316}
+  - {fileID: 1505480529}
+  - {fileID: 74342201}
   - {fileID: 1973607143}
   - {fileID: 9114405824839376418}
   - {fileID: 8826642671169760572}
   - {fileID: 3030053827319777959}
-  - {fileID: 699076822}
-  - {fileID: 547505429}
+  - {fileID: 951844995}
+  - {fileID: 723266440}
+  - {fileID: 1576472316}
   - {fileID: 2079261711}
   - {fileID: 1919387243}
   - {fileID: 1387909666}
@@ -45301,12 +45517,12 @@ GameObject:
   - component: {fileID: 1243646485}
   - component: {fileID: 1243646486}
   m_Layer: 0
-  m_Name: SortingMinigame
+  m_Name: 4_SortingMinigame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1243646485
 Transform:
   m_ObjectHideFlags: 0
@@ -45334,7 +45550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1288a148bcba31c479d94930c76a2105, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: ce4af54f063afc24397fc29011b6c17e, type: 2}
+  requiredElement: {fileID: 11400000, guid: 634027e2908e7eb47bff585181d9bea9, type: 2}
   UIPanel: {fileID: 456648409}
   dropZones:
   - {fileID: 1920825658}
@@ -45692,7 +45908,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1061650019}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1255300503
 SpriteRenderer:
@@ -47186,12 +47402,12 @@ GameObject:
   - component: {fileID: 1316005714}
   - component: {fileID: 1316005715}
   m_Layer: 0
-  m_Name: SortingDeclainAnim
+  m_Name: 4_SortingDeclainAnim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1316005714
 Transform:
   m_ObjectHideFlags: 0
@@ -47219,7 +47435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d1642b58a5e6b449936fcf73ef64711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: d88871dab319db24a9f2dc48642ac103, type: 2}
+  requiredElement: {fileID: 11400000, guid: 76d8221a7843c84438f3ba4a7c5da109, type: 2}
   countOfExhausting: 3
   factory: {fileID: 1567093710}
   dustClouds: {fileID: 1168455036}
@@ -49952,12 +50168,12 @@ GameObject:
   - component: {fileID: 1387909666}
   - component: {fileID: 1387909667}
   m_Layer: 0
-  m_Name: AirportMinigameAccept
+  m_Name: 10_AirportMinigameAccept
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1387909666
 Transform:
   m_ObjectHideFlags: 0
@@ -49971,7 +50187,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1387909667
 MonoBehaviour:
@@ -49985,11 +50201,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f3dd8445f8b6f458d142399530fae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: ce4af54f063afc24397fc29011b6c17e, type: 2}
+  requiredElement: {fileID: 11400000, guid: 24fff863e1c7c444bb5b099817523658, type: 2}
   treesObj: {fileID: 1061650018}
   buildingObj: {fileID: 1099420124}
   treesTapables:
-  - {fileID: 0}
+  - {fileID: 84066759}
   - {fileID: 138497876}
   - {fileID: 1255300505}
   - {fileID: 578613975}
@@ -54049,12 +54265,12 @@ GameObject:
   - component: {fileID: 1505480529}
   - component: {fileID: 1505480530}
   m_Layer: 0
-  m_Name: TrashMinigame
+  m_Name: 4_TrashMinigame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1505480529
 Transform:
   m_ObjectHideFlags: 0
@@ -54068,7 +54284,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1505480530
 MonoBehaviour:
@@ -54077,12 +54293,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505480528}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1cf2fd468e9447246b672ead84198f33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: cbf5ae4ef5d7d8543ad764cbf8477767, type: 2}
+  requiredElement: {fileID: 11400000, guid: d2efcf88737341d46b65f9471725a9e3, type: 2}
   UIPanel: {fileID: 440230650}
   trashObj: {fileID: 262881136}
   trashTapables:
@@ -55616,7 +55832,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1567093711
 Transform:
   m_ObjectHideFlags: 0
@@ -55734,12 +55950,12 @@ GameObject:
   - component: {fileID: 1576472316}
   - component: {fileID: 1576472317}
   m_Layer: 0
-  m_Name: CleanParkDeclainAnim
+  m_Name: 8_CleanParkDeclainAnim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1576472316
 Transform:
   m_ObjectHideFlags: 0
@@ -55753,7 +55969,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 7
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1576472317
 MonoBehaviour:
@@ -55767,7 +55983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9964196e036411941bd1843d75aba800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: d88871dab319db24a9f2dc48642ac103, type: 2}
+  requiredElement: {fileID: 11400000, guid: c63e9fc31b9e67d4db5e33f1a6d523f7, type: 2}
   dustClouds: {fileID: 1356956670}
 --- !u!1 &1578539904
 GameObject:
@@ -58791,12 +59007,12 @@ GameObject:
   - component: {fileID: 1705671121}
   - component: {fileID: 1705671122}
   m_Layer: 0
-  m_Name: WordsMinigame
+  m_Name: 1_WordsMinigame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1705671121
 Transform:
   m_ObjectHideFlags: 0
@@ -58810,7 +59026,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1705671122
 MonoBehaviour:
@@ -58819,12 +59035,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705671120}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1b16fb48f430de46af84e9e7e561636, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: cfe8a1e9e16a3bc4591c65afab2f612d, type: 2}
+  requiredElement: {fileID: 11400000, guid: 5ae1ee66a96446c42b4a1af70033c736, type: 2}
   UIPanel: {fileID: 2082356910}
   endButton: {fileID: 1007485880}
   dropZones:
@@ -67536,7 +67752,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.95
+  m_fontSize: 27.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -69751,7 +69967,7 @@ GameObject:
   - component: {fileID: 1919387243}
   - component: {fileID: 1919387244}
   m_Layer: 0
-  m_Name: FoodProductionMinigameDeclain
+  m_Name: 9_FoodProductionMinigameDeclain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69770,7 +69986,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1919387244
 MonoBehaviour:
@@ -69784,7 +70000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5acb3c67d8e50014e9e47064ecab5870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: 8689ee14df04c044f8e1c49b80c92aeb, type: 2}
+  requiredElement: {fileID: 11400000, guid: 3b841aa6e303a3447baa08e32035b64c, type: 2}
   UIPanel: {fileID: 58268664}
   Container: {fileID: 1552768620}
   LeftIndicator: {fileID: 739304763}
@@ -72874,7 +73090,7 @@ GameObject:
   - component: {fileID: 1950647436}
   - component: {fileID: 1950647437}
   m_Layer: 0
-  m_Name: BusMinigameDeclain
+  m_Name: 11_BusMinigameDeclain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72893,7 +73109,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1950647437
 MonoBehaviour:
@@ -72907,7 +73123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27e5e5ab6809e742943fd7f227ee6cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: d88871dab319db24a9f2dc48642ac103, type: 2}
+  requiredElement: {fileID: 11400000, guid: 8f1ce3ec91c90bf4580b8947f02d5855, type: 2}
   mapGO: {fileID: 890328723}
   tapableBuses:
   - {fileID: 1696720486}
@@ -73368,7 +73584,7 @@ GameObject:
   - component: {fileID: 1973607143}
   - component: {fileID: 1973607144}
   m_Layer: 0
-  m_Name: PreserveMinigame
+  m_Name: 6_PreserveMinigame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73401,7 +73617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b8d17d9082db74ea810fd9c15b2d17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: 31aa13a7c85970e49a400e3153035ac9, type: 2}
+  requiredElement: {fileID: 11400000, guid: 4216bbbefbf5ebf4dabf3a7be8de1566, type: 2}
   minigameObj: {fileID: 6133382573136458595}
   zonesFencing: {fileID: 1363010785}
   fieldsCountPanel: {fileID: 6764343814479670101}
@@ -76368,7 +76584,7 @@ GameObject:
   - component: {fileID: 2079261711}
   - component: {fileID: 2079261712}
   m_Layer: 0
-  m_Name: FoodProductionMinigameAccept
+  m_Name: 9_FoodProductionMinigameAccept
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76387,7 +76603,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1084472514}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2079261712
 MonoBehaviour:
@@ -76401,7 +76617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67b1377f32dde964992254560d9df2f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: 4af3ec6b424601f46b8b80168227a4f0, type: 2}
+  requiredElement: {fileID: 11400000, guid: 774dda06da74530458cc6a4413456f0d, type: 2}
   minigameObj: {fileID: 253827859}
   ClothingProductionPrefab: {fileID: 3244883836925873035, guid: ba6183cadb7cb634cb1ec1a006f27f73, type: 3}
   roadsContainer: {fileID: 1362852558}
@@ -78162,7 +78378,7 @@ GameObject:
   - component: {fileID: 3030053827319777959}
   - component: {fileID: 3030053827319777960}
   m_Layer: 0
-  m_Name: RaisingPricesMinigame
+  m_Name: 7_RaisingPricesMinigame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78195,7 +78411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ca8f12775eddf4ab155408c53fb50e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: 10d9537fab2636d40a922a57572522e9, type: 2}
+  requiredElement: {fileID: 11400000, guid: 16f8c4adc55fd774aa7c6ed191c25f0b, type: 2}
   minigameObj: {fileID: 4420835800336262437}
   pricesContainer: {fileID: 4420835798947071333}
 --- !u!4 &3208529149837921888
@@ -80691,7 +80907,7 @@ GameObject:
   - component: {fileID: 8826642671169760572}
   - component: {fileID: 8826642671169760576}
   m_Layer: 0
-  m_Name: ClothingProductionMinigame
+  m_Name: 7_ClothingProductionMinigame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80709,7 +80925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 883ebb6641f032640a3d188dbdaacf2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: 1a9a739ec1812dc40b5dc341face750f, type: 2}
+  requiredElement: {fileID: 11400000, guid: 1d5feee8c209b1b4bb2222160b8648eb, type: 2}
   minigameObj: {fileID: 3208529150559230433}
   ClothingProductionPrefab: {fileID: 4849909709270538697, guid: d99fd01a0c2cbf245b0ad2a460647d87, type: 3}
   roadsContainer: {fileID: 3208529150240401809}
@@ -80725,7 +80941,7 @@ GameObject:
   - component: {fileID: 9114405824839376418}
   - component: {fileID: 9114405824839376419}
   m_Layer: 0
-  m_Name: AnimalsSerchMinigame
+  m_Name: 6_AnimalsSerchMinigame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80758,7 +80974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25acae29e7ad494ba568e38045ba4f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredElement: {fileID: 11400000, guid: fa9637c4e988f7b41a881125bbdb5c7f, type: 2}
+  requiredElement: {fileID: 11400000, guid: 6f3e2fa4590e5ac4998989761643ca82, type: 2}
   UIPanel: {fileID: 7132593256590683249}
   ImagePanel: {fileID: 7132593255637717159}
   TextPanel: {fileID: 7132593255795224776}
